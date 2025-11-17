@@ -1,0 +1,82 @@
+.carousel-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+
+.carousel-viewport {
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.carousel-card{
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+@media (min-width: 680px) {
+  .carousel-card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-card{
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-card{
+    width: 25%;
+  }
+}
+
+.producto-card:hover {
+  transform: translateY(-4px);
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.carousel-btn:hover {
+  background-color: #f3f3f3;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.left-btn {
+  left: 8px;
+}
+
+.right-btn {
+  right: 8px;
+}

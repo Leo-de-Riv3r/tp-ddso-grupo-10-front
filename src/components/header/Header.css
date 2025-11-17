@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+header {
+  padding: 8px;
+  background-image: linear-gradient(#c4a142, #d8df75);
+  font-size: 1.3rem;
+}
+
+header #title {
+  font-family: "Imperial Script", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+header #nav-icon{
+  font-size: 2rem;
+}
+
+
+.offcanvas-animated.offcanvas-end {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.offcanvas-animated.offcanvas-end.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Opcional: animar el backdrop */
+.offcanvas-backdrop {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.offcanvas-backdrop.show {
+  opacity: 0.6;
+}
+
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* espacio entre iconos y navbar */
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-item {
+  position: relative;
+  color: #444;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.15s ease-in-out;
+}
+
+.icon-item:hover {
+  transform: scale(1.1);
+  color: #f59e0b;
+}
+
+.badge {
+  font-size: 0.65rem;
+  padding: 0.3em 0.4em;
+}
+
+
+.link-carrito-producto {
+  /* 1. Borra el estilo de link (color y subrayado) */
+  color: inherit; /* Hereda el color del texto padre (ej. negro) */
+  text-decoration: none; /* Quita el subrayado */
+}
+
+.link-carrito-producto:hover{
+  /* 2. Agrega el subrayado solo cuando pasas el mouse por encima */
+  text-decoration: underline;
+}

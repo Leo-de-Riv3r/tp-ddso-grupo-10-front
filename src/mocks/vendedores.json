@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "_id": "68d6cab39b8125b409b72c05",
+            "nombre": "Juan Pérez",
+            "email": "juan.perez@example.com",
+            "telefono": "1123456789",
+            "tipo": "VENDEDOR",
+            "fechaAlta": "2025-09-26T13:20:15.123Z"
+        },
+        {
+            "_id": "68d70ebe842bb9825c607486",
+            "nombre": "el zar de la nariz",
+            "email": "nazo@relli.com",
+            "telefono": "1122222266",
+            "tipo": "VENDEDOR",
+            "fechaAlta": "2025-09-26T13:20:15.123Z"
+        },
+        {
+            "_id": "68d6cab39b8125b409b72c05",
+            "nombre": "Juan Pérez",
+            "email": "juan.perez@example.com",
+            "telefono": "1123456789",
+            "tipo": "VENDEDOR",
+            "fechaAlta": "2025-09-26T13:20:15.123Z"
+        },
+        {
+            "_id": "68d70ebe842bb9825c607486",
+            "nombre": "el zar de la nariz",
+            "email": "nazo@relli.com",
+            "telefono": "1122222266",
+            "tipo": "VENDEDOR",
+            "fechaAlta": "2025-09-26T13:20:15.123Z"
+        }
+    ],
+    "pagination": {
+        "page": 1,
+        "total_pages": 10
+    }
+}

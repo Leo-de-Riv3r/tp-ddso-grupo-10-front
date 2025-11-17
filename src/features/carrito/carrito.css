@@ -1,0 +1,10 @@
+.link-carrito-producto {
+  /* 1. Borra el estilo de link (color y subrayado) */
+  color: inherit; /* Hereda el color del texto padre (ej. negro) */
+  text-decoration: none; /* Quita el subrayado */
+}
+
+.link-carrito-producto:hover{
+  /* 2. Agrega el subrayado solo cuando pasas el mouse por encima */
+  text-decoration: underline;
+}

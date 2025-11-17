@@ -1,0 +1,73 @@
+.card-pedido {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.card-pedido:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.pedido-header {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.pedido-id {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.pedido-items {
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.pedido-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  font-size: 0.95rem;
+  border-bottom: 1px dashed #ddd;
+}
+
+.pedido-item:last-child {
+  border-bottom: none;
+}
+
+.pedido-total {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.btn-modern {
+  border-radius: 10px !important;
+  padding: 0.45rem 1rem !important;
+  font-weight: 500 !important;
+}
+
+.btn-modern-primary {
+  background: #4a74ff !important;
+  border: none !important;
+}
+
+.btn-modern-danger {
+  background: #e14a4a !important;
+  border: none !important;
+}
+
+.badge-modern {
+  padding: 0.45rem 0.7rem;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}

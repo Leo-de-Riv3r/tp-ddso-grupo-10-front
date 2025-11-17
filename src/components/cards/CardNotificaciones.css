@@ -1,0 +1,5 @@
+.botonLeido {
+	align-self: flex-end;
+	justify-content: end;
+	display: flex;
+}

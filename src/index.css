@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --primary-purple: rgb(36, 4, 78);
+  --secondary-purple: rgb(115, 71, 172);
+  --primary-white: rgb(250, 250, 250);
+  --primary-orange: rgb(254, 31, 2);
+  --primary-gray: rgb(36, 36, 36);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  box-shadow: none;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.link-no-style {
+  all: unset;
+  cursor: pointer;
+  display: inline;
+}
+
+.link-no-style:hover,
+.link-no-style:focus,
+.link-no-style:active,
+.link-no-style:visited {
+  all: unset;
+  cursor: pointer;
+}

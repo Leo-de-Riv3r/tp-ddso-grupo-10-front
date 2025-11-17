@@ -1,0 +1,11 @@
+.botonInicio {
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+}
+
+.boton {
+    display: flex;
+    flex-direction: column;
+}

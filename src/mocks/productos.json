@@ -1,0 +1,117 @@
+{
+    "data": [
+        {
+            "_id": "68d6cd29a0e37efeb70c3061",
+            "vendedor": {
+                "id": "68d6cab39b8125b409b72c05",
+                "nombre": "Juan Pérez",
+                "email": "juan.perez@example.com"
+            },
+            "titulo": "heladera con calor",
+            "descripcion": "heladera ideal para usar en la antartida",
+            "categorias": [
+                {
+                    "nombre": "Electrodomestico",
+                    "_id": "68d6cb9a842bb9825c606c63"
+                }
+            ],
+            "precio": 230.99,
+            "moneda": "DOLAR_USA",
+            "stock": 100,
+            "fotos": ["https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg", "https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg"],
+            "activo": true
+        },
+        {
+            "_id": "68d80a91a518e989b6c3ef0d",
+            "vendedor": {
+                "id": "68d6cab39b8125b409b72c05",
+                "nombre": "Juan Pérez",
+                "email": "juan.perez@example.com"
+            },
+            "titulo": "murcielago masticado",
+            "descripcion": "el legendario murcielago que mordio Ozzy Ousbourne",
+            "categorias": [
+                {
+                    "nombre": "Legendario",
+                    "_id": "68d80a4d842bb9825c607844"
+                }
+            ],
+            "precio": 100,
+            "moneda": "DOLAR_USA",
+            "stock": 1,
+            "fotos": ["https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg", "https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg"],
+            "activo": true
+        },
+        {
+            "_id": "68d80b5efb05b0ad134e48f9",
+            "vendedor": {
+                "id": "68d6cab39b8125b409b72c05",
+                "nombre": "Juan Pérez",
+                "email": "juan.perez@example.com"
+            },
+            "titulo": "Cosito de la pizza de oro",
+            "descripcion": "el cosito de la pizza pero hecho en oro",
+            "categorias": [
+                {
+                    "nombre": "Legendario",
+                    "_id": "68d80a4d842bb9825c607844"
+                }
+            ],
+            "precio": 2000,
+            "moneda": "DOLAR_USA",
+            "stock": 10,
+            "fotos": ["https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg", "https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg"],
+            "activo": true
+        },
+        {
+            "_id": "68d80bb2fb05b0ad134e48fe",
+            "vendedor": {
+                "id": "68d6cab39b8125b409b72c05",
+                "nombre": "Juan Pérez",
+                "email": "juan.perez@example.com"
+            },
+            "titulo": "El helado caliente",
+            "descripcion": "el helado caliente, el cubo redondo",
+            "categorias": [
+                {
+                    "nombre": "Bizarreadas",
+                    "_id": "68d70f29842bb9825c607488"
+                }
+            ],
+            "precio": 100,
+            "moneda": "DOLAR_USA",
+            "stock": 1000,
+            "fotos": ["https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg", "https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg"],
+            "activo": true
+        },
+        {
+            "_id": "68d80bff18af1af6555172ff",
+            "vendedor": {
+                "id": "68d6cab39b8125b409b72c05",
+                "nombre": "Juan Pérez",
+                "email": "juan.perez@example.com"
+            },
+            "titulo": "Pelota cuadrada",
+            "descripcion": "la pelota cuadrada de quico",
+            "categorias": [
+                {
+                    "nombre": "Legendario",
+                    "_id": "68d80a4d842bb9825c607844"
+                },
+                {
+                    "nombre": "MESI",
+                    "_id": "111213232"
+                }
+            ],
+            "precio": 300,
+            "moneda": "DOLAR_USA",
+            "stock": 0,
+            "fotos": ["https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg", "https://i0.wp.com/lashistoriasdelrock.com/wp-content/uploads/2024/06/Peace-Sells.-but-Whos-Buying-1.jpg?resize=640%2C361&ssl=1", "https://cdn-images.dzcdn.net/images/cover/4fc68581b212b22a55b0d5093d766152/0x1900-000000-80-0-0.jpg"],
+            "activo": true
+        }
+    ],
+    "pagination": {
+        "page": 1,
+        "total_pages": 11
+    }
+}

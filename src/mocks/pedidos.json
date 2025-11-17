@@ -1,0 +1,185 @@
+{
+  "data": [
+    {
+      "_id": "1",
+      "comprador": {
+        "_id": "u1",
+        "nombre": "Nacho",
+        "email": "miEmail@gmail.com",
+        "telefono": "3424135345",
+        "tipo": "COMPRADOR"
+      },
+      "items": [
+        { "productoId": "p1", "cantidad": 2, "precioUnitario": 300 },
+        { "productoId": "p2", "cantidad": 1, "precioUnitario": 600 }
+      ],
+      "total": 1200,
+      "moneda": "ARS",
+      "direccionEntrega": { "calle": "Calle Falsa", "numero": 123, "ciudad": "Rosario" },
+      "estado": "PENDIENTE",
+      "fechaCreacion": "2025-10-26T15:00:00Z",
+      "historialEstados": [
+        {
+          "estado": "PENDIENTE",
+          "fecha": "2025-10-26T15:00:00Z",
+          "usuario": { "_id": "u1", "nombre": "Nacho" },
+          "comentario": "Pedido creado"
+        }
+      ]
+    },
+    {
+      "_id": "2",
+      "comprador": {
+        "_id": "u2",
+        "nombre": "Ana",
+        "email": "ana@gmail.com",
+        "telefono": "3424123456",
+        "tipo": "COMPRADOR"
+      },
+      "items": [
+        { "productoId": "p3", "cantidad": 3, "precioUnitario": 150 }
+      ],
+      "total": 450,
+      "moneda": "ARS",
+      "direccionEntrega": { "calle": "Mitre", "numero": 456, "ciudad": "Rosario" },
+      "estado": "ENTREGADO",
+      "fechaCreacion": "2025-10-25T18:30:00Z",
+      "historialEstados": [
+        {
+          "estado": "PENDIENTE",
+          "fecha": "2025-10-25T18:30:00Z",
+          "usuario": { "_id": "u2", "nombre": "Ana" },
+          "comentario": "Pedido creado"
+        },
+        {
+          "estado": "ENTREGADO",
+          "fecha": "2025-10-26T10:00:00Z",
+          "usuario": { "_id": "u2", "nombre": "Ana" },
+          "comentario": "Pedido entregado"
+        }
+      ]
+    },{
+      "_id": "3",
+      "comprador": {
+        "_id": "u1",
+        "nombre": "Nacho",
+        "email": "miEmail@gmail.com",
+        "telefono": "3424135345",
+        "tipo": "COMPRADOR"
+      },
+      "items": [
+        { "productoId": "p1", "cantidad": 2, "precioUnitario": 300 },
+        { "productoId": "p2", "cantidad": 1, "precioUnitario": 600 }
+      ],
+      "total": 1200,
+      "moneda": "ARS",
+      "direccionEntrega": { "calle": "Calle Falsa", "numero": 123, "ciudad": "Rosario" },
+      "estado": "EN_PREPARACION",
+      "fechaCreacion": "2025-10-26T15:00:00Z",
+      "historialEstados": [
+        {
+          "estado": "PENDIENTE",
+          "fecha": "2025-10-26T15:00:00Z",
+          "usuario": { "_id": "u1", "nombre": "Nacho" },
+          "comentario": "Pedido creado"
+        }
+      ]
+    },
+    {
+      "_id": "4",
+      "comprador": {
+        "_id": "u2",
+        "nombre": "Ana",
+        "email": "ana@gmail.com",
+        "telefono": "3424123456",
+        "tipo": "COMPRADOR"
+      },
+      "items": [
+        { "productoId": "p3", "cantidad": 3, "precioUnitario": 150 }
+      ],
+      "total": 450,
+      "moneda": "ARS",
+      "direccionEntrega": { "calle": "Mitre", "numero": 456, "ciudad": "Rosario" },
+      "estado": "ENVIADO",
+      "fechaCreacion": "2025-10-25T18:30:00Z",
+      "historialEstados": [
+        {
+          "estado": "PENDIENTE",
+          "fecha": "2025-10-25T18:30:00Z",
+          "usuario": { "_id": "u2", "nombre": "Ana" },
+          "comentario": "Pedido creado"
+        },
+        {
+          "estado": "ENTREGADO",
+          "fecha": "2025-10-26T10:00:00Z",
+          "usuario": { "_id": "u2", "nombre": "Ana" },
+          "comentario": "Pedido entregado"
+        }
+      ]
+    },{
+      "_id": "5",
+      "comprador": {
+        "_id": "u1",
+        "nombre": "Nacho",
+        "email": "miEmail@gmail.com",
+        "telefono": "3424135345",
+        "tipo": "COMPRADOR"
+      },
+      "items": [
+        { "productoId": "p1", "cantidad": 2, "precioUnitario": 300 },
+        { "productoId": "p2", "cantidad": 1, "precioUnitario": 600 }
+      ],
+      "total": 1200,
+      "moneda": "ARS",
+      "direccionEntrega": { "calle": "Calle Falsa", "numero": 123, "ciudad": "Rosario" },
+      "estado": "PENDIENTE",
+      "fechaCreacion": "2025-10-26T15:00:00Z",
+      "historialEstados": [
+        {
+          "estado": "PENDIENTE",
+          "fecha": "2025-10-26T15:00:00Z",
+          "usuario": { "_id": "u1", "nombre": "Nacho" },
+          "comentario": "Pedido creado"
+        }
+      ]
+    },
+    {
+      "_id": "6",
+      "comprador": {
+        "_id": "u2",
+        "nombre": "Ana",
+        "email": "ana@gmail.com",
+        "telefono": "3424123456",
+        "tipo": "COMPRADOR"
+      },
+      "items": [
+        { "productoId": "p3", "cantidad": 3, "precioUnitario": 150 }
+      ],
+      "total": 450,
+      "moneda": "ARS",
+      "direccionEntrega": { "calle": "Mitre", "numero": 456, "ciudad": "Rosario" },
+      "estado": "ENTREGADO",
+      "fechaCreacion": "2025-10-25T18:30:00Z",
+      "historialEstados": [
+        {
+          "estado": "PENDIENTE",
+          "fecha": "2025-10-25T18:30:00Z",
+          "usuario": { "_id": "u2", "nombre": "Ana" },
+          "comentario": "Pedido creado"
+        },
+        {
+          "estado": "ENTREGADO",
+          "fecha": "2025-10-26T10:00:00Z",
+          "usuario": { "_id": "u2", "nombre": "Ana" },
+          "comentario": "Pedido entregado"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "pagina": 1,
+    "porPagina": 5,
+    "total": 12,
+    "totalPaginas": 1
+  }
+}

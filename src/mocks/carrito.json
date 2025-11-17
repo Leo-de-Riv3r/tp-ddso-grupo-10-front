@@ -1,0 +1,20 @@
+[
+    {
+        "productoId": 1,
+        "nombre": "Producto A",
+        "cantidad": 2,
+        "precioUnitario": 500
+    },
+    {
+        "productoId": 2,
+        "nombre": "Producto B",
+        "cantidad": 1,
+        "precioUnitario": 1200
+    },
+    {
+        "productoId": 3,
+        "nombre": "Producto C",
+        "cantidad": 3,
+        "precioUnitario": 250
+    }
+    ]

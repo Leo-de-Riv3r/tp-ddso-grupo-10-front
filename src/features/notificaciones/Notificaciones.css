@@ -1,0 +1,33 @@
+
+.notificaciones ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notificaciones .card {
+    margin-top: 10px;
+    min-width: 500px;
+}
+
+.cartelError {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .notificaciones ul {
+        list-style: none;
+        padding: 10px;
+        width: 100vw;
+    }
+
+    .notificaciones .card {
+        min-width: 100%;
+    }
+}

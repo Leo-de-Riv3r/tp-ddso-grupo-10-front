@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+          "mensaje": "notitifacion mockeada abz",
+          "leida": false,
+          "fechaLeida": null,
+          "fechaAlta": "2025-09-26T13:20:15.123Z"
+        },{
+          "mensaje": "notitifacion mockeada abz",
+          "leida": true,
+          "fechaLeida": "2025-09-26T13:20:15.123Z",
+          "fechaAlta": "2025-09-26T13:20:15.123Z"
+        }
+    ],
+    "pagination": {
+        "page": 1,
+        "total_pages": 11
+    }
+}

@@ -1,0 +1,13 @@
+footer{
+  padding: 8px;
+  background-image: linear-gradient(#e0cfa0, #d8df75);
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
